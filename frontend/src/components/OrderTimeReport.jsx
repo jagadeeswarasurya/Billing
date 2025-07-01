@@ -13,7 +13,7 @@ import RestaurantMenuIcon from '@mui/icons-material/RestaurantMenu';
 import RoomServiceIcon from '@mui/icons-material/RoomService';
 import CancelIcon from '@mui/icons-material/Cancel';
 
-const API_URL = 'https://caferiadbnode.glitch.me' || 'http://localhost:5000';
+const API_URL = 'https://billing-6qkq.onrender.com/';
 
 const STATUS_FLOW = ['onBoard', 'preparing', 'ready', 'served'];
 const STATUS_COLORS = {

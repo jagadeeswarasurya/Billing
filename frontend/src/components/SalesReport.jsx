@@ -23,7 +23,7 @@ import Inventory2Icon from '@mui/icons-material/Inventory2';
 import CategoryIcon from '@mui/icons-material/Category';
 import { Pie } from 'react-chartjs-2';
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js';
-const API_URL = 'https://caferiadbnode.glitch.me' || 'http://localhost:5000';
+const API_URL = 'https://billing-6qkq.onrender.com/';
   ChartJS.register(ArcElement, Tooltip, Legend);
 const ReportPage = () => {
   const [billwise, setBillwise] = useState([]);

@@ -6,7 +6,7 @@ import {
 import { ArrowForward, Cancel, SwapVert  } from '@mui/icons-material';
 import axios from 'axios';
 
-const API_URL = 'https://caferiadbnode.glitch.me' || 'http://localhost:5000';
+const API_URL = 'https://billing-6qkq.onrender.com/';
 
 const STATUS_STEPS = ['all', 'onBoard', 'preparing', 'ready', 'served', 'canceled'];
 const STATUS_COLORS = {

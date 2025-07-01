@@ -27,7 +27,7 @@ import {
 import axios from 'axios';
 import { TransitionGroup } from 'react-transition-group';
 // import Ring from './bell.mp3';
-const API_URL = 'https://caferiadbnode.glitch.me';
+const API_URL = 'https://billing-6qkq.onrender.com/';
 
 const STATUS_FLOW = ['onBoard', 'preparing', 'ready', 'served'];
 const STATUS_COLORS = {

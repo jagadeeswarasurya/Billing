@@ -33,7 +33,7 @@ ChartJS.register(
   LineElement
 );
 
-const API_URL = 'https://caferiadbnode.glitch.me' || 'http://localhost:5000';
+const API_URL = 'https://billing-6qkq.onrender.com/';
 
 const defaultColors = [
   '#1E88E5',

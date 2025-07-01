@@ -11,7 +11,7 @@ import AddMenuItemForm from './AddForm';
 import EditMenuItemForm from './EditMenu';
 import axios from 'axios';
 
-const API_URL = 'https://caferiadbnode.glitch.me' || 'http://localhost:5000';
+const API_URL = 'https://billing-6qkq.onrender.com/';
 
 // 🔹 Filter Input with Clear Button
 const FilterInputWithClear = ({ field, placeholder, filters, setFilters }) => (

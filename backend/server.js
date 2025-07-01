@@ -31,7 +31,7 @@ const { CloudinaryStorage } = require('multer-storage-cloudinary');
 
 
 const allowedOrigins = [
-  'http://localhost:5173'
+  'https://billing-6qkq.onrender.com/'
 ];
 
 

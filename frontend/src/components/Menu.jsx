@@ -7,7 +7,7 @@ import {
 import { Add, Remove } from '@mui/icons-material';
 
 
-const API_URL = 'https://caferiadbnode.glitch.me' || 'http://localhost:5000';
+const API_URL = 'https://billing-6qkq.onrender.com/';
 
 const MenuListDisplay = ({ handleAddToOrder, handleRemoveFromOrder, orders }) => {
   const [menuItems, setMenuItems] = useState([]);
