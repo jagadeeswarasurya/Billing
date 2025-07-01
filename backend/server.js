@@ -31,8 +31,8 @@ const { CloudinaryStorage } = require('multer-storage-cloudinary');
 
 
 const allowedOrigins = [
-  'https://billing-6qkq.onrender.com/', // â no trailing slash
-  'http://localhost:5173/'
+  'https://billing-6qkq.onrender.com', // â no trailing slash
+  'http://localhost:5173'
 ];
 
 app.use(cors({
