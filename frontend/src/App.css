@@ -1,0 +1,168 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* App.css */
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.app {
+  background-color: #fff;
+  color: #000;
+  min-height: 100vh;
+  transition: all 0.3s ease;
+}
+
+.app.dark {
+  background-color: #121212;
+  color: #f5f5f5;
+}
+
+.app-header {
+  background-color: inherit;
+  padding: 16px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+}
+
+.main-content {
+  padding: 24px;
+}
+
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+.menu-card {
+  background-color: inherit;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+}
+
+.menu-card:hover {
+  transform: scale(1.02);
+}
+
+.menu-card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+}
+
+.menu-info {
+  padding: 12px;
+}
+
+.menu-info h3 {
+  margin: 0 0 8px;
+}
+
+.menu-info button {
+  margin-top: 10px;
+  padding: 8px 12px;
+  border: none;
+  background-color: #000;
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.menu-info button:hover {
+  background-color: #444;
+}
+
+.app.dark .menu-card {
+  border-color: #444;
+}
+
+.app.dark .menu-info button {
+  background-color: #fff;
+  color: #000;
+}
+
+.order-summary {
+  margin-top: 40px;
+  padding: 16px;
+  border-top: 1px solid #ccc;
+}
+
+.dialog-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.dialog-box {
+  background-color: #fff;
+  color: #000;
+  padding: 24px;
+  border-radius: 8px;
+  max-width: 320px;
+  text-align: center;
+}
+
+.dialog-box button {
+  margin-top: 16px;
+  padding: 8px 12px;
+  border: none;
+  background-color: #000;
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.app.dark .dialog-box {
+  background-color: #333;
+  color: #fff;
+}
