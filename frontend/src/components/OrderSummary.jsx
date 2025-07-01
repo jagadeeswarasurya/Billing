@@ -9,7 +9,7 @@ import {
 import { useTheme } from '@mui/material/styles';
 import axios from 'axios';
 
-const API_URL = 'https://billing-6qkq.onrender.com/';
+const API_URL = 'https://billing-6qkq.onrender.com';
 const OrderSummary = ({ customer, setCustomer, orders, setOrders, total }) => {
   const [lastSavedId, setLastSavedId] = useState('');
   const [paymentMode, setPaymentMode] = useState('cash');

@@ -7,7 +7,7 @@ import EditIcon from '@mui/icons-material/Edit';
 import DeleteIcon from '@mui/icons-material/Delete';
 import axios from 'axios';
 
-const API_URL = 'https://billing-6qkq.onrender.com/';
+const API_URL = 'https://billing-6qkq.onrender.com';
 
 const CategoryManagement = () => {
   const [categories, setCategories] = useState([]);

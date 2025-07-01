@@ -5,7 +5,7 @@ import {
 } from '@mui/material';
 import axios from 'axios';
 
-const API_URL = 'https://billing-6qkq.onrender.com/';
+const API_URL = 'https://billing-6qkq.onrender.com';
 
 const EditMenuItemForm = ({ item, onSave, onClose }) => {
   const [formData, setFormData] = useState({

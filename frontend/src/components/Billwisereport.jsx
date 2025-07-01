@@ -9,7 +9,7 @@ import jsPDF from 'jspdf';
 import QRCode from 'qrcode';
 import PrintIcon from '@mui/icons-material/Print';
 import IconButton from '@mui/material/IconButton';
-const API_URL = 'https://billing-6qkq.onrender.com/';
+const API_URL = 'https://billing-6qkq.onrender.com';
 
 const STATUS_LIST = ['onBoard', 'preparing', 'ready', 'served', 'canceled'];
 

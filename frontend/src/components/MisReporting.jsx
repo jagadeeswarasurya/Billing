@@ -6,7 +6,7 @@ import {
 import axios from 'axios';
 import dayjs from 'dayjs';
 
-const API_URL = 'https://billing-6qkq.onrender.com/';
+const API_URL = 'https://billing-6qkq.onrender.com';
 
 const fieldLabels = {
   customer: 'Customer',

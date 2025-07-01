@@ -13,7 +13,7 @@ import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
 import axios from 'axios';
 import * as XLSX from 'xlsx';
 
-const API_URL = 'https://billing-6qkq.onrender.com/';
+const API_URL = 'https://billing-6qkq.onrender.com';
 
 const OrderReporting = () => {
   const [orders, setOrders] = useState([]);
