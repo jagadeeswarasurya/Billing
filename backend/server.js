@@ -30,10 +30,10 @@ const cloudinary = require('cloudinary').v2;
 const { CloudinaryStorage } = require('multer-storage-cloudinary');
 
 
-// const allowedOrigins = [
-//   'https://caferia.netlify.app', // ✅ no trailing slash
-//   'http://localhost:3000'
-// ];
+const allowedOrigins = [
+  'http://localhost:5173'
+];
+
 
 app.use(cors({
   origin: allowedOrigins,
