@@ -170,7 +170,7 @@ const MenuDropdown = ({ onMenuAction }) => {
       <Box sx={{ mt: 3, textAlign: 'center' }}>
         <Divider sx={{ mb: 1.5, borderColor: '#ccc' }} />
         <Typography variant="caption" color="text.secondary">
-          &copy; {new Date().getFullYear()} AISylvester. All rights reserved.
+          &copy; {new Date().getFullYear()} Surya. All rights reserved.
         </Typography>
       </Box>
     </Box>
