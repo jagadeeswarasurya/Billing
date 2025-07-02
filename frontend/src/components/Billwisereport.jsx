@@ -198,7 +198,7 @@ const handlePrintBill = async (order) => {
 
   // QR Code
   const ticketSuffix = ticketId.split('-')[1];
-  const qrUrl = `https://caferiatrackorder.netlify.app/ticket/${ticketSuffix}`;
+  const qrUrl = `https://billing-6qkq.onrender.com/ticket/${ticketSuffix}`;
   const qrDataUrl = await QRCode.toDataURL(qrUrl);
 
   pdf.addImage(qrDataUrl, 'PNG', (pageWidth - 26) / 2, y, 26, 26);
