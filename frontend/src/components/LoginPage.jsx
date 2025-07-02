@@ -75,7 +75,7 @@ const LoginPage = ({ onLogin }) => {
               mb: 0.5,
             }}
           >
-            Cafe`Ria
+            Snack Attack
           </Typography>
 
        
