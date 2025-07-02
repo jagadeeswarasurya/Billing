@@ -326,7 +326,7 @@ sx={{
             '&:hover': { opacity: 0.8 },
           }}
         >
-          Cafe`Ria
+          Snack Attack
         </Typography>
            <IconButton
           onClick={() => {
