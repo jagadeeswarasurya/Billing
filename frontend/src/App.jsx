@@ -180,7 +180,7 @@ sx={{
             '&:hover': { opacity: 0.8 },
           }}
         >
-          Cafe`Ria
+          Snack Attack
         </Typography>
 
         <Box sx={{ flexGrow: 1 }} /> {/* Push right icons to end */}
@@ -469,7 +469,7 @@ sx={{
   </DialogTitle>
 
   <Typography sx={{ px: 3, pt: 1.5, pb: 2, color: '#555', fontSize: '0.95rem' }}>
-    Are you sure you want to log out of the Caferia POS system?
+    Are you sure you want to log out of the Snack Attack POS system?
   </Typography>
 
   <DialogActions
