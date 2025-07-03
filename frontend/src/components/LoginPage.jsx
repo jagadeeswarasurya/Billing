@@ -22,7 +22,7 @@ const LoginPage = ({ onLogin }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (username === 'admin' && password === '123456') {
+    if (username === 'Admin' && password === '123456') {
       onLogin();
     } else {
       alert('Invalid credentials');
